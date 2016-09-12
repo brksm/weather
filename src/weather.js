@@ -14,14 +14,10 @@ export default React.createClass({
   componentDidMount: function () {
     this.getData();
   },
-  //TODO: Sort this out
   componentWillUnmount: function () {
     this.serverRequest.abort();
   },
-  getData: function (e) {
-    if (e) {
-      e.preventDefault();
-    }
+  getData: function () {
     const self = this;
     this.serverRequest = apiClient('GET', url)
       .then(function (data) {
@@ -36,6 +32,7 @@ export default React.createClass({
       return <Day day={day}></Day>;
     }
     return <div className="ui padded grid container">
+      <h1>Welcome to Moscow... here is your weather!</h1>
       {this.state.forecasts.map(makeDay)}
     </div>;
   }

@@ -37,6 +37,7 @@
     "koa-static": "^2.0.0",
     "map-stream": "0.0.6",
     "moment": "^2.14.1",
+    "moment-timezone": "^0.5.5",
     "node-sass": "^3.9.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
