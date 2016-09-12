@@ -33,8 +33,8 @@ Or – follow the setup instructions below.
 
 ### Tech, tooling
 
-* Probably want to use Webpack (or Rollup) instead of home-cooked Browserify scripts
+* Probably want to use Webpack (or Rollup) instead of home-cooked build scripts
 * Want to run linter, tests on Travis CI
-* Minification
+* Minification (and source maps)
 * Pre-render views on server ('isomorphic' JavaScript)?
 * Tests!
