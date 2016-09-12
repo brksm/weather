@@ -20,12 +20,14 @@ Or – follow the setup instructions below.
 ## Known issues
 
 * Accessing page on Heroku via HTTPS currently does not work
+* Need to check if summer/winter time transition will break current API response adapter
 
 
 ## Future improvements
 
 ### Features
 
+* Allow user to pick which city he wants to see the weather for!
 * Show more information per tile (wind, humidity etc.)
 * Read more into API docs to see what we can get out of it
 * Nicer styling
@@ -37,4 +39,4 @@ Or – follow the setup instructions below.
 * Want to run linter, tests on Travis CI
 * Minification (and source maps)
 * Pre-render views on server ('isomorphic' JavaScript)?
-* Tests!
+* Tests (unit tests and end-to-end tests via Protractor or Capybara)!
