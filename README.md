@@ -19,8 +19,10 @@ Or – follow the setup instructions below.
 
 ## Known issues
 
+* Messy git history, sorry!
 * Accessing page on Heroku via HTTPS currently does not work
 * Need to check if summer/winter time transition will break current API response adapter
+* Handle errors (e.g. bad API response) properly and report to user
 
 
 ## Future improvements
