@@ -1,8 +1,24 @@
+@import 'colors';
+
+body {
+  background-color: $beige;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .tile {
   height: 200px;
-  border-width: 2px;
-  border-style: solid;
   margin-bottom: 20px;
+  background-color: $yellow;
+  border-radius: 3px;
 }
 
 .time,
