@@ -32,7 +32,9 @@ export default React.createClass({
       return <Day day={day}></Day>;
     }
     return <div className="ui padded grid container">
+    <div className="row">
       <h1>Welcome to Moscow... here is your weather!</h1>
+      </div>
       {this.state.forecasts.map(makeDay)}
     </div>;
   }

@@ -1,12 +1,7 @@
 import React, { PropTypes } from 'react';
 
-const Tile = React.createClass({
-  render: function () {
-    return <div className="tile">
-      <p className="time">{this.props.forecast.formattedTime}</p>
-      <p className="temp">{this.props.forecast.temp}</p>
-    </div>;
-  }
-});
-
-export default Tile;
+export default ({forecast}) =>
+    <div className="tile">
+       <p className="time">{forecast.formattedTime}</p>
+       <p className="temp">{forecast.temp}</p>
+     </div>;

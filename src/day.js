@@ -1,21 +1,16 @@
 import React, { PropTypes } from 'react';
 import Tile from './tile';
 
-const Day = React.createClass({
-  render: function () {
-    function makeTile(f) {
-      return <div className="column">
-        <Tile forecast={f}></Tile>
-      </div>;
-    }
-    return <div className="doubling six column row">
+export default ({day}) =>
+    <div className="doubling six column row">
       <div className="sixteen wide column">
-        <h2>{this.props.day.day}</h2>
+        <h2>{day.day}</h2>
       </div>
-      {this.props.day.points.map(makeTile)}
-      <hr/>
+      {day.points.map(makeTile)}
     </div>;
-  }
-});
 
-export default Day;
+function makeTile(f) {
+  return <div className="column">
+    <Tile forecast={f}></Tile>
+  </div>;
+}
