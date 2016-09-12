@@ -4,7 +4,7 @@ Do you want to know what the weather will be like in Moscow?
 
 That's easy!
 
-Just go [here](http://greatweather.herokuapp.com) (no `https` for now please!) to find out.
+Just go [here](http://greatweather.herokuapp.com) to find out – might take a few seconds to wake up the dyno (also, no `https` for now please!).
 
 Or – follow the setup instructions below.
 
