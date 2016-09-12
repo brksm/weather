@@ -1,4 +1,4 @@
-# Intro
+## Intro
 
 Do you want to know what the weather will be like in Moscow?
 
@@ -9,7 +9,7 @@ Just go to `http://greatweather.herokuapp.com` (no `https` for now please!) to f
 Or – follow the setup instructions below.
 
 
-# Setup
+## Setup
 
 1. Clone repo.
 2. Run `npm install` (this also builds the app via `postinstall` hook).
@@ -17,21 +17,21 @@ Or – follow the setup instructions below.
 4. Go to `http://localhost:8000`.
 
 
-# Known issues
+## Known issues
 
 * Accessing page on Heroku via HTTPS currently does not work
 
 
-# Future improvements
+## Future improvements
 
-## Features
+### Features
 
 * Show more information per tile (wind, humidity etc.)
 * Read more into API docs to see what we can get out of it
 * Nicer styling
 
 
-## Tech, tooling
+### Tech, tooling
 
 * Probably want to use Webpack (or Rollup) instead of home-cooked Browserify scripts
 * Want to run linter, tests on Travis CI
