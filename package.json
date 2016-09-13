@@ -16,8 +16,9 @@
     "copy": "cp -r ./static/* ./public",
     "clean": "rm -rf public && mkdir public",
     "lint": "eslint .",
-    "postinstall": "npm run build && webdriver-manager update",
-    "test": "protractor ./test/conf.js"
+    "postinstall": "npm run build",
+    "test": "protractor ./test/conf.js",
+    "test:prep": "webdriver-manager update"
   },
   "author": "",
   "license": "ISC",

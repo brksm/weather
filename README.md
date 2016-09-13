@@ -13,7 +13,7 @@ Or – follow the setup instructions below.
 
 1. Clone repo.
 2. Run `npm install` (this also builds the app via `postinstall` hook).
-3. `npm test` runs the protractor end-to-end tests.
+3. `npm run test:prep && npm test` runs the protractor end-to-end tests.
   - I hope this will run fine out-of-the-box on your system but I would not bet my life on it
 4. `npm start` starts local web server that serves the web app.
 5. Go to `http://localhost:8000`.
