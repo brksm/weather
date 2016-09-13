@@ -5,10 +5,7 @@ const config = {
     slow: 3000,
     timeout: 20000
   },
-  seleniumAddress: 'http://localhost:4444/wd/hub',
-  // browserstackUser: 'aslkfh',
-  // browserstackKey: 'lkasdhgfj',
-  specs: ['home.js']
+  specs: ['weather.js']
 };
 
-export { config };
+exports.config = config;

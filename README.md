@@ -13,8 +13,10 @@ Or – follow the setup instructions below.
 
 1. Clone repo.
 2. Run `npm install` (this also builds the app via `postinstall` hook).
-3. `npm start` starts local web server that serves the web app.
-4. Go to `http://localhost:8000`.
+3. `npm test` runs the protractor end-to-end tests.
+  - I hope this will run fine out-of-the-box on your system but I would not bet my life on it
+4. `npm start` starts local web server that serves the web app.
+5. Go to `http://localhost:8000`.
 
 
 ## Known issues
@@ -41,4 +43,7 @@ Or – follow the setup instructions below.
 * Want to run linter, tests on Travis CI
 * Minification (and source maps)
 * Pre-render views on server ('isomorphic' JavaScript)?
-* Tests (unit tests and end-to-end tests via Protractor or Capybara)!
+* Write more tests!
+  - Unit tests
+  - More end-to-end tests
+  - Maybe use Capybara with Cucumber instead of Protractor?
